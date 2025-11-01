@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: raw
-    database: your_database_name
+    database: itsm_db
     schema: public
     tables:
       - name: tickets_raw
