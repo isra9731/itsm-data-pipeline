@@ -4,7 +4,7 @@ itsm_profile:
     dev:
       type: postgres
       host: localhost
-      user: your_user
+      user: Postgres
       password: your_password
       dbname: itsm_db
       schema: public
