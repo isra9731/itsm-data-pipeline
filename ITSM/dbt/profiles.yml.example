@@ -1,0 +1,11 @@
+itsm_profile:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: your_user
+      password: your_password
+      dbname: itsm_db
+      schema: public
+      threads: 1

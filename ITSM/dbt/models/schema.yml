@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_tickets
+    description: "Staging model for raw tickets"
+    columns:
+      - name: ticket_id
+        tests:
+          - not_null
+          - unique
+      - name: created_at
+        tests:
+          - not_null
+
+  - name: m_tickets_aggregates
+    description: "Aggregated metrics: avg resolution, closure rate, monthly summary"

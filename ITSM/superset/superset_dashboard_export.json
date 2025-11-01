@@ -1,0 +1,37 @@
+{
+  "dashboard": {
+    "dashboard_title": "ITSM Tickets Dashboard - Template",
+    "positions": {},
+    "metadata": {
+      "filters": {
+        "week": {
+          "name": "week"
+        },
+        "category": {
+          "name": "category"
+        },
+        "priority": {
+          "name": "priority"
+        }
+      }
+    }
+  },
+  "slices": [
+    {
+      "slice_name": "Ticket Volume Trends",
+      "viz_type": "line"
+    },
+    {
+      "slice_name": "Resolution Time by Category",
+      "viz_type": "bar"
+    },
+    {
+      "slice_name": "Closure Rate by Assigned Group",
+      "viz_type": "pie"
+    },
+    {
+      "slice_name": "Ticket Backlog by Priority",
+      "viz_type": "table"
+    }
+  ]
+}
